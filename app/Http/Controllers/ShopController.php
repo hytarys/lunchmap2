@@ -74,10 +74,9 @@ class ShopController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Shop  $shop
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request,　$id, Shop $shop)
+    public function update(Request $request, $id, Shop $shop)
     {
         $shop = Shop::find($id);
         $shop->name = request('name');
