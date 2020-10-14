@@ -9,7 +9,7 @@
     </head>
     <body>
         <nav class='navbar navbar-expand-md navbar-dark bg-dark fixed-top'>
-            <a class='navbar-brand' href={{route('shop.list')}}>Lunchmap</a>
+            <a class='navbar-brand' href={{route('shop.list')}}>Lunchintro</a>
         </nav>
         <div class='container'>
             @yield('content')
